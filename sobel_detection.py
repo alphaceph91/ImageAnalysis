@@ -219,6 +219,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# python sobel_detection.py --image /path/to/image.jpg --output /path/to/output/
-# python sobel_detection.py --dir /path/to/images/ --output /path/to/output/
