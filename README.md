@@ -18,3 +18,26 @@ This repository comprises a collection of Python scripts dedicated to **image pr
 
 ### 3. Full-Reference Image Quality Assessment:
 - **SEWAR Metric Analysis (`SEWAR.py`)** - Computes various full-reference quality metrics (PSNR, SSIM, MSSSIM, RMSE, UQI, etc.) to compare distorted images against reference images.
+
+## Usage
+Each script is standalone and can be executed via the command line. Below are some example usages:
+
+### Sobel Edge Detection:
+```sh
+python sobel_detection.py --dir /path/to/images --output /path/to/output/
+```
+
+### SIFT Feature Matching:
+```sh
+python SIFT.py --image1 /path/to/image1.png --image2 /path/to/image2.png --output /path/to/output/
+```
+
+### GLCM Texture Analysis:
+```sh
+python GLCM.py --dir /path/to/images --output /path/to/output/
+```
+
+### SEWAR Metric Analysis:
+```sh
+python SEWAR.py --ref /path/to/reference_folder --dist /path/to/distorted_folder --output /path/to/output_folder/
+```
