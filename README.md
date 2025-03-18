@@ -41,3 +41,15 @@ python GLCM.py --dir /path/to/images --output /path/to/output/
 ```sh
 python SEWAR.py --ref /path/to/reference_folder --dist /path/to/distorted_folder --output /path/to/output_folder/
 ```
+
+## Output
+Each script generates specific outputs, including:
+- **Processed Images:** Edge-detected or feature-matched images.
+- **CSV Files:** Computed metrics for image quality assessment.
+- **Histograms & Plots:** Graphical representations of feature distributions.
+
+## Requirements
+Ensure the following dependencies are installed:
+```sh
+pip install opencv-python numpy matplotlib pandas skimage sewar tqdm
+```
