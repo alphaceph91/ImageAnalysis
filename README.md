@@ -6,7 +6,7 @@ This repository comprises a collection of Python scripts dedicated to **image pr
 ## Features and Implemented Methods
 
 ### 1. Edge Detection and Texture Analysis:
-- **Sobel Edge Detection (`sobel_detection.py`)** - Detects image edges using the Sobel operator and classifies images based on edge counts. 
+- **Sobel Edge Detection (`sobel_detection.py`)** - Detects image edges using the Sobel operator and classifies images based on edge counts. [Sobel](https://scikit-image.org/docs/0.25.x/api/skimage.filters.html#skimage.filters.sobel)
 - **Canny Edge Detection (`canny_detection.py`)** - Applies the Canny edge detector to extract image edges and evaluate image quality. [Canny](https://scikit-image.org/docs/stable/auto_examples/edges/plot_canny.html)
 - **Local Binary Patterns (`LBP_detection.py`)** - Computes LBP histograms to analyze textures and classify image quality. [LBP](https://scikit-image.org/docs/stable/auto_examples/features_detection/plot_local_binary_pattern.html)
 - **Gray-Level Co-occurrence Matrix (`GLCM.py`)** - Extracts texture features such as contrast, energy, homogeneity, and correlation. [GLCM](https://scikit-image.org/docs/stable/auto_examples/features_detection/plot_glcm.html)
