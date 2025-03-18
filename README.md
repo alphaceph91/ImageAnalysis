@@ -6,15 +6,15 @@ This repository comprises a collection of Python scripts dedicated to **image pr
 ## Features and Implemented Methods
 
 ### 1. Edge Detection and Texture Analysis:
-- **Sobel Edge Detection (`sobel_detection.py`)** - Detects image edges using the Sobel operator and classifies images based on edge counts.
-- **Canny Edge Detection (`canny_detection.py`)** - Applies the Canny edge detector to extract image edges and evaluate image quality.
-- **Local Binary Patterns (`LBP_detection.py`)** - Computes LBP histograms to analyze textures and classify image quality.
-- **Gray-Level Co-occurrence Matrix (`GLCM.py`)** - Extracts texture features such as contrast, energy, homogeneity, and correlation.
+- **Sobel Edge Detection (`sobel_detection.py`)** - Detects image edges using the Sobel operator and classifies images based on edge counts. 
+- **Canny Edge Detection (`canny_detection.py`)** - Applies the Canny edge detector to extract image edges and evaluate image quality. [Canny](https://scikit-image.org/docs/stable/auto_examples/edges/plot_canny.html)
+- **Local Binary Patterns (`LBP_detection.py`)** - Computes LBP histograms to analyze textures and classify image quality. [LBP](https://scikit-image.org/docs/stable/auto_examples/features_detection/plot_local_binary_pattern.html)
+- **Gray-Level Co-occurrence Matrix (`GLCM.py`)** - Extracts texture features such as contrast, energy, homogeneity, and correlation. [GLCM](https://scikit-image.org/docs/stable/auto_examples/features_detection/plot_glcm.html)
 - **GLCM Patch Comparison (`GLCM_compare.py`)** - Compares selected patches from two images using GLCM features.
 
 ### 2. Feature Matching:
-- **SIFT Feature Matching (`SIFT.py`)** - Extracts keypoints using Scale-Invariant Feature Transform (SIFT) and matches them between two images.
-- **ORB Feature Matching (`ORB.py`)** - Uses Oriented FAST and Rotated BRIEF (ORB) to detect keypoints and compare images.
+- **SIFT Feature Matching (`SIFT.py`)** - Extracts keypoints using Scale-Invariant Feature Transform (SIFT) and matches them between two images. [SIFT](https://docs.opencv.org/4.x/da/df5/tutorial_py_sift_intro.html)
+- **ORB Feature Matching (`ORB.py`)** - Uses Oriented FAST and Rotated BRIEF (ORB) to detect keypoints and compare images. [ORB](https://docs.opencv.org/4.x/d1/d89/tutorial_py_orb.html)
 
 ### 3. Full-Reference Image Quality Assessment:
 - **SEWAR Metric Analysis (`SEWAR.py`)** - Computes various full-reference quality metrics (PSNR, SSIM, MSSSIM, RMSE, UQI, etc.) to compare distorted images against reference images. [SEWAR](https://pypi.org/project/sewar/)
