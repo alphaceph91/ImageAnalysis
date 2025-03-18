@@ -17,7 +17,7 @@ This repository comprises a collection of Python scripts dedicated to **image pr
 - **ORB Feature Matching (`ORB.py`)** - Uses Oriented FAST and Rotated BRIEF (ORB) to detect keypoints and compare images.
 
 ### 3. Full-Reference Image Quality Assessment:
-- **SEWAR Metric Analysis (`SEWAR.py`)** - Computes various full-reference quality metrics (PSNR, SSIM, MSSSIM, RMSE, UQI, etc.) to compare distorted images against reference images.
+- **SEWAR Metric Analysis (`SEWAR.py`)** - Computes various full-reference quality metrics (PSNR, SSIM, MSSSIM, RMSE, UQI, etc.) to compare distorted images against reference images. [SEWAR](https://pypi.org/project/sewar/)
 
 ## Usage
 Each script is standalone and can be executed via the command line. Below are some example usages:
