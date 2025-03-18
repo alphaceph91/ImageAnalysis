@@ -12,3 +12,9 @@ This repository comprises a collection of Python scripts dedicated to **image pr
 - **Gray-Level Co-occurrence Matrix (`GLCM.py`)** - Extracts texture features such as contrast, energy, homogeneity, and correlation.
 - **GLCM Patch Comparison (`GLCM_compare.py`)** - Compares selected patches from two images using GLCM features.
 
+### 2. Feature Matching:
+- **SIFT Feature Matching (`SIFT.py`)** - Extracts keypoints using Scale-Invariant Feature Transform (SIFT) and matches them between two images.
+- **ORB Feature Matching (`ORB.py`)** - Uses Oriented FAST and Rotated BRIEF (ORB) to detect keypoints and compare images.
+
+### 3. Full-Reference Image Quality Assessment:
+- **SEWAR Metric Analysis (`SEWAR.py`)** - Computes various full-reference quality metrics (PSNR, SSIM, MSSSIM, RMSE, UQI, etc.) to compare distorted images against reference images.
